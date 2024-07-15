@@ -1,51 +1,27 @@
-# Ignore list for Eagle, a PCB layout tool
 
-# Backup files
-*.s#?
-*.b#?
-*.l#?
-*.b$?
-*.s$?
-*.l$?
+# Pakku
+pakku.jar
+build/
 
-# Eagle project file
-# It contains a serial number and references to the file structure
-# on your computer.
-# comment the following line if you want to have your project file included.
-eagle.epf
+# Client data
+usernamecache.json
+usercache.json
+servers.dat
+options.txt
 
-# Autorouter files
-*.pro
-*.job
+# Extensions
+**/*.log
+**/*.gz
+**/*.DS_Store
 
-# CAM files
-*.$$$
-*.cmp
-*.ly2
-*.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
-
-*.dri
-*.drl
-*.gpi
-*.pls
-*.ger
-*.xln
-
-*.drd
-*.drd.*
-
-*.s#*
-*.b#*
-
-*.info
-
-*.eps
-
-# file locks introduced since 7.x
-*.lck
+# .minecraft
+mods/
+resourcepacks/
+saves/
+screenshots/
+server-resource-packs/
+shaderpacks/
+texturepacks/
+logs/
+crash-reports/
+icon.png

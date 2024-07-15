@@ -1,0 +1,15 @@
+{
+    "name": "PakkuExampleModpack",
+    "version": "0.0.1",
+    "description": "🐬 Example modpack built using the Pakku modpack manager.",
+    "author": "teksturepako",
+    "overrides": [
+        "config"
+    ],
+    "server_overrides": [
+    ],
+    "client_overrides": [
+    ],
+    "projects": {
+    }
+}
